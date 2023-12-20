@@ -29,13 +29,13 @@ const useStyles = makeStyles((theme) => ({
   container: {
     position: "relative",
     width: "100vw",
-    height: "85vh",
+    height: "100vh",
     filter: "brightness(70%)",
   },
   image: {
     objectFit: "fill",
     width: "100%",
-    height: "100%",
+  height: '100%',
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",
