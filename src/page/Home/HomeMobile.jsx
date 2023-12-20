@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     filter: "brightness(70%)",
   },
   image: {
-    objectFit: "fill",
+    objectFit: "cover",
     width: "100%",
     height: '100%',
     backgroundRepeat: "no-repeat",
