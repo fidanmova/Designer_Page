@@ -283,7 +283,9 @@ export default function ProjectDesktop() {
             <Grid md={3} sm={4}></Grid>
 
             {/* INSTALLATION IMAGE PART */}
-            <Grid md={6} sm={6} paddingLeft="20px">
+            <Grid md={6} sm={6} 
+            // paddingLeft="20px"
+            >
               <Box sx={slideImages}>
                 <img
                   class="Installation"
