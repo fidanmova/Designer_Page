@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   image: {
     objectFit: "fill",
     width: "100%",
-  height: '100%',
+    height: '100%',
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",
@@ -79,7 +79,6 @@ export default function HomeDesktop() {
       display="flex"
       flexDirection="column"
       justifyContent="space-between"
-      // height="100vh" 
       className={classes.container}
     >
       <img className={classes.image} src={currentImage} alt="Background"></img>

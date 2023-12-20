@@ -110,7 +110,7 @@ export default function ProjectDesktop() {
         </Box>
         {/* Gif */}
         <Box marginBottom="10%">
-          <video className={` ${classes.gif}`} autoPlay loop muted>
+          <video className={` ${classes.gif}`} autoPlay loop muted playsInline>
             <source src={gifPath} type="video/mp4" />
           </video>
           <img
