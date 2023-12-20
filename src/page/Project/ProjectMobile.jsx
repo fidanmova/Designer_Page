@@ -92,13 +92,13 @@ export default function ProjectDesktop() {
           paddingLeft="3%"
           paddingRight="3%"
           paddingTop="7%"
-          paddingBottom="3%"
+          // paddingBottom="3%"
           position="absolute"
           display="flex"
           flexDirection="column"
           justifyContent="space-between"
           width="100%"
-          height="92%"
+          height="85%"
           top="0"
         >
           <Box>
