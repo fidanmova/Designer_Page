@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef} from "react";
 import { Box, Typography, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@mui/styles";
@@ -85,7 +85,7 @@ export default function ProjectDesktop() {
   return (
     <Box>
       <Box className={classes.container}>
-        <video className={classes.video} autoPlay loop muted>
+        <video className={classes.video} autoPlay loop muted playsInline>
           <source src={videoPath} type="video/mp4" />
         </video>
         <Grid
