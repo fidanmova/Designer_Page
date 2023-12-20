@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   container: {
     position: "relative",
     width: "100vw",
-    height: "100vh",
+    height: "85vh",
     filter: "brightness(70%)",
   },
   image: {

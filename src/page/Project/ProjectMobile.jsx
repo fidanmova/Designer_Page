@@ -10,7 +10,7 @@ const videoPath = "recent_projects/banner_kleinkurz.mp4";
 const useStyles = makeStyles((theme) => ({
   container: {
     width: "100vw",
-    height: "100vh",
+    height: "85vh",
     position: "relative",
   },
   video: {
