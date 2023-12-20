@@ -38,7 +38,7 @@ const BigBoldTextStyle = {
   color: "#0AFF00",
   fontSize: "32px",
   lineHeight: "35px",
-  fontFamily: "Arial Black",
+  fontFamily: "Arial black",
 };
 
 const smallText = {
@@ -128,7 +128,7 @@ export default function ProjectDesktop() {
               Installation
             </Typography>
             <Typography sx={smallText} width="80%%">
-              Shown at <br></br> 06.07.2023 at Kampnagel Hamburg 21.09.2023 -
+              Shown at <br></br> 06.07.2023 at Kampnagel Hamburg <br></br> 21.09.2023 -
               21.11.2023 at "The Cup Flows Over: Art from the Soul of Iran" at
               Gallery Bergen, New Jersey
             </Typography>

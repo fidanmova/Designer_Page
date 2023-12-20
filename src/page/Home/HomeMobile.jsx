@@ -72,6 +72,7 @@ export default function HomeDesktop() {
   const emailStyle = {
     ...textStyle,
     whiteSpace: "normal",
+    fontFamily: 'Arial black'
   };
 
   return (
@@ -84,9 +85,9 @@ export default function HomeDesktop() {
       <img className={classes.image} src={currentImage} alt="Background"></img>
 
       <Box justifyContent="center" position="absolute" top="3%" left="2%">
-        <Typography sx={textStyle}>COMMUNICATION</Typography>
-        <Typography sx={textStyle}>DESIGN FANNY</Typography>
-        <Typography sx={textStyle}> POKRANDT</Typography>
+        <Typography sx={{...textStyle, fontFamily: 'Arial black'}}>COMMUNICATION</Typography>
+        <Typography sx={{...textStyle, fontFamily: 'Arial black'}}>DESIGN FANNY</Typography>
+        <Typography sx={{...textStyle, fontFamily: 'Arial black'}}> POKRANDT</Typography>
         <Link style={{ textDecoration: "none" }} to="/project">
           <Typography
             sx={{
@@ -98,7 +99,7 @@ export default function HomeDesktop() {
             RECENT PROJECTS
           </Typography>
         </Link>
-        <Typography sx={textStyle}>SAY HI AT</Typography>
+        <Typography sx={{...textStyle, fontFamily: 'Arial black'}}>SAY HI AT</Typography>
         <a
           href="mailto:hello@fannypokrandt.com"
           style={{ textDecoration: "none", color: "inherit" }}
