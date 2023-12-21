@@ -105,11 +105,13 @@ export default function ProjectDesktop() {
         >
           <Box>
             <Link style={{ textDecoration: "none" }} to="/">
+            
               <Typography className="arialBlack" sx={BigTextStyle}>COMMUNICATION</Typography>
               <Typography sx={BigTextStyle}>DESIGN FANNY</Typography>
             </Link>
             <Typography sx={BigTextStyle}>POKRANDT</Typography>
             <p className="arialBlack" >RECENT PROJECTS</p>
+            <p className="arialBlack" >TEST ARIAL </p>
             <Typography sx={BigTextStyle}>SAY HI AT</Typography>
             <a
               href="mailto:hello@fannypokrandt.com"
