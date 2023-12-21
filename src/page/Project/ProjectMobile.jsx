@@ -38,10 +38,10 @@ const BigTextStyle = {
 };
 
 const BigBoldTextStyle = {
-  // color: "#0AFF00",
-  // fontSize: "32px",
-  // lineHeight: "35px",
-  // fontFamily: "Arial black",
+  color: "#0AFF00",
+  fontSize: "32px",
+  lineHeight: "35px",
+  fontFamily: "Arial black",
 };
 
 const smallText = {
@@ -51,7 +51,7 @@ const smallText = {
 };
 
 const SocialMedia = {
-  // color: "#0AFF00",
+  color: "#0AFF00",
   fontSize: "32px",
   lineHeight: "35px",
   fontFamily: "Arial Black",
@@ -111,8 +111,7 @@ export default function ProjectDesktop() {
               <Typography sx={BigTextStyle}>DESIGN FANNY</Typography>
             </Link>
             <Typography sx={BigTextStyle}>POKRANDT</Typography>
-            <p className="arialBlack" >RECENT PROJECTS</p>
-            <p style={{ fontFamily: 'Arial Black, sans-serif', fontSize:'30px', color:'red' }} >TEST ARIAL </p>
+            <Typography sx={BigBoldTextStyle}>RECENT PROJECTS</Typography>          
             <Typography sx={BigTextStyle}>SAY HI AT</Typography>
             <a
               href="mailto:hello@fannypokrandt.com"
@@ -124,13 +123,13 @@ export default function ProjectDesktop() {
           </Box>
 
           <Box>
-            <div>
-            <p className="arialBlack">UNDER THE </p>
-            <p className="arialBlack" paddingBottom="2%" >
+         
+            <Typography sx={BigBoldTextStyle}>UNDER THE </Typography>
+            <Typography sx={BigBoldTextStyle}paddingBottom="2%" >
               SAME SKY
-            </p>
+            </Typography>
 
-            </div>
+       
             <Typography sx={BigTextStyle}>Video and Sound</Typography>
             <Typography paddingBottom="2%" sx={BigTextStyle}>
               Installation

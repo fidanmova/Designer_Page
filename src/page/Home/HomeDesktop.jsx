@@ -80,7 +80,8 @@ export default function HomeDesktop() {
     <div>
       {isMobile ? (
         <HomeMobile />
-      ) :  isTablet ? (
+      ) : 
+       isTablet ? (
         <HomeTablet /> 
       ):(
         <div className={classes.container}>
