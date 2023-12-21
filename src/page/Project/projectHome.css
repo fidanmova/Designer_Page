@@ -32,14 +32,6 @@
   height: auto;
 }
 
-/* .arialBlack {
-  font-family: "Arial Black";
-  color: #0aff00;
-  font-size: 32px;
-  line-height: 35px;
-  padding-bottom: 0;
-} */
-
 @font-face {
   font-family: "Arial Black";
   src: local("Arial Black"), url("../../font/Arial\ Black.ttf") format("woff2"),
@@ -48,9 +40,4 @@
   font-weight: normal;
   font-style: normal;
 }
-.bigTextStyle {
-  color: red;
-  font-size: 32px;
-  line-height:35p;
-  font-family: 'Arial ',
-}
+

@@ -59,30 +59,30 @@ const SocialMedia = {
 
 export default function ProjectDesktop() {
   const classes = useStyles();
-  const [scrollColor, setScrollColor] = useState("#0AFF00");
+  // const [scrollColor, setScrollColor] = useState("#0AFF00");
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      const threshold = 50;
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollPosition = window.scrollY;
+  //     const threshold = 50;
 
-      if (scrollPosition > threshold) {
-        setScrollColor((prevColor) =>
-          prevColor === "#0AFF00" ? "purple" : "#0AFF00"
-        );
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
+  //     if (scrollPosition > threshold) {
+  //       setScrollColor((prevColor) =>
+  //         prevColor === "#0AFF00" ? "purple" : "#0AFF00"
+  //       );
+  //     }
+  //   };
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
-  const socialMediaStyle = {
-    ...SocialMedia,
-    color: scrollColor,
-  };
+  // const socialMediaStyle = {
+  //   ...SocialMedia,
+  //   color: scrollColor,
+  // };
 
   return (
     <Box>
@@ -166,7 +166,7 @@ export default function ProjectDesktop() {
           target="_blank"
           style={{ textDecoration: "none", paddingRight: "10px" }}
         >
-          <Typography sx={socialMediaStyle}>
+          <Typography >
             <FaVimeoV />
           </Typography>
         </Link>
@@ -175,7 +175,7 @@ export default function ProjectDesktop() {
           target="_blank"
           style={{ textDecoration: "none" }}
         >
-          <Typography sx={socialMediaStyle}>
+          <Typography>
             <FaInstagram />
           </Typography>
         </Link>
