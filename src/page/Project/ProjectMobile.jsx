@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { makeStyles } from "@mui/styles";
 import { FaVimeoV, FaInstagram } from "react-icons/fa";
 
+
 import './projectHome.css'
 
 import ProjectMobileGallery from "./ProjectMobileGallery";
@@ -111,7 +112,7 @@ export default function ProjectDesktop() {
             </Link>
             <Typography sx={BigTextStyle}>POKRANDT</Typography>
             <p className="arialBlack" >RECENT PROJECTS</p>
-            <p className="arialBlack" >TEST ARIAL </p>
+            <p style={{ fontFamily: 'Arial Black, sans-serif', fontSize:'30px', color:'red' }} >TEST ARIAL </p>
             <Typography sx={BigTextStyle}>SAY HI AT</Typography>
             <a
               href="mailto:hello@fannypokrandt.com"
