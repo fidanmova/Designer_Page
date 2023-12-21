@@ -31,3 +31,18 @@
   width: 60%;
   height: auto;
 }
+
+.arialBlack {
+  font-family: 'Arial Black';
+  color: #0AFF00;
+  font-size: 32px;
+  line-height: 35px;
+  padding-bottom: 0 ;
+}
+
+/* .bigTextStyle {
+  color: red;
+  font-size: 32px;
+  line-height:35p;
+  font-family: 'Arial ',
+} */

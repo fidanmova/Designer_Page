@@ -1,8 +1,10 @@
-import React, { useEffect, useState, useRef} from "react";
+import React, { useEffect, useState} from "react";
 import { Box, Typography, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@mui/styles";
 import { FaVimeoV, FaInstagram } from "react-icons/fa";
+
+import './projectHome.css'
 
 import ProjectMobileGallery from "./ProjectMobileGallery";
 const videoPath = "recent_projects/banner_kleinkurz.mp4";
@@ -35,10 +37,10 @@ const BigTextStyle = {
 };
 
 const BigBoldTextStyle = {
-  color: "#0AFF00",
-  fontSize: "32px",
-  lineHeight: "35px",
-  fontFamily: "Arial black",
+  // color: "#0AFF00",
+  // fontSize: "32px",
+  // lineHeight: "35px",
+  // fontFamily: "Arial black",
 };
 
 const smallText = {
@@ -103,11 +105,11 @@ export default function ProjectDesktop() {
         >
           <Box>
             <Link style={{ textDecoration: "none" }} to="/">
-              <Typography sx={BigTextStyle}>COMMUNICATION</Typography>
+              <Typography className="arialBlack" sx={BigTextStyle}>COMMUNICATION</Typography>
               <Typography sx={BigTextStyle}>DESIGN FANNY</Typography>
             </Link>
             <Typography sx={BigTextStyle}>POKRANDT</Typography>
-            <Typography sx={BigBoldTextStyle}>RECENT PROJECTS</Typography>
+            <p className="arialBlack" >RECENT PROJECTS</p>
             <Typography sx={BigTextStyle}>SAY HI AT</Typography>
             <a
               href="mailto:hello@fannypokrandt.com"
@@ -119,10 +121,13 @@ export default function ProjectDesktop() {
           </Box>
 
           <Box>
-            <Typography sx={BigBoldTextStyle}>UNDER THE </Typography>
-            <Typography paddingBottom="2%" sx={BigBoldTextStyle}>
+            <div>
+            <p className="arialBlack">UNDER THE </p>
+            <p className="arialBlack" paddingBottom="2%" >
               SAME SKY
-            </Typography>
+            </p>
+
+            </div>
             <Typography sx={BigTextStyle}>Video and Sound</Typography>
             <Typography paddingBottom="2%" sx={BigTextStyle}>
               Installation
