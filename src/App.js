@@ -1,4 +1,6 @@
 import HomeDesktop from './page/Home/HomeDesktop';
+import HomeMobile from './page/Home/HomeMobile'
+import ProjectMobile from './page/Project/ProjectMobile'
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import './index.css'
 
@@ -13,6 +15,8 @@ function App() {
     <ThemeProvider theme={theme}>
     <div className="App">
       <HomeDesktop/>
+      <HomeMobile/>
+      <ProjectMobile/>
     </div>
   </ThemeProvider>
   );

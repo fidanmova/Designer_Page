@@ -1,0 +1,37 @@
+.projectImages {
+  position: sticky;
+  object-fit: cover;
+}
+.PosterAustellung {
+  width: 70%;
+  height: auto;
+}
+
+.Installation {
+  width: 90%;
+  height: auto;
+}
+
+.InstaMobile {
+  width: 10%;
+  height: auto;
+}
+
+.OpenBook {
+  width: 100%;
+  height: auto;
+}
+
+.Cover {
+  width: 100%;
+  height: auto;
+}
+
+.Installation_02 {
+  width: 60%;
+  height: auto;
+}
+
+.arial-black {
+  font-family: 'Arial Black';
+}
