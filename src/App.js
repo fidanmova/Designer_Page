@@ -9,7 +9,7 @@ import './index.css'
 
 const theme = createTheme({
   typography: {
-    fontFamily: 'Arial Black',
+    fontFamily: 'Arial Black, Arial, sans-serif',
   },
 });
 
