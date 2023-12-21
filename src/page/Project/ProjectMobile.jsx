@@ -166,7 +166,7 @@ export default function ProjectDesktop() {
           target="_blank"
           style={{ textDecoration: "none", paddingRight: "10px" }}
         >
-          <Typography >
+          <Typography  sx={SocialMedia} >
             <FaVimeoV />
           </Typography>
         </Link>
@@ -175,7 +175,7 @@ export default function ProjectDesktop() {
           target="_blank"
           style={{ textDecoration: "none" }}
         >
-          <Typography>
+          <Typography sx={SocialMedia}>
             <FaInstagram />
           </Typography>
         </Link>
