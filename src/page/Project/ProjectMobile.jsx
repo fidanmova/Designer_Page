@@ -1,11 +1,10 @@
-import React, { useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { Box, Typography, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@mui/styles";
 import { FaVimeoV, FaInstagram } from "react-icons/fa";
 
-
-import './projectHome.css'
+import "./projectHome.css";
 
 import ProjectMobileGallery from "./ProjectMobileGallery";
 const videoPath = "recent_projects/banner_kleinkurz.mp4";
@@ -106,38 +105,46 @@ export default function ProjectDesktop() {
         >
           <Box>
             <Link style={{ textDecoration: "none" }} to="/">
-            
-              <Typography className="arialBlack" sx={BigTextStyle}>COMMUNICATION</Typography>
+              <Typography className="arialBlack" sx={BigTextStyle}>
+                COMMUNICATION
+              </Typography>
               <Typography sx={BigTextStyle}>DESIGN FANNY</Typography>
             </Link>
             <Typography sx={BigTextStyle}>POKRANDT</Typography>
-            <Typography sx={BigBoldTextStyle}>RECENT PROJECTS</Typography>          
+            <Typography
+              style={{
+                fontFamily: "Arial Black, sans-serif",
+                color: "#0AFF00",
+                fontSize: "32px",
+                lineHeight: "35px",
+              }}
+            >
+              RECENT PROJECTS
+            </Typography>
             <Typography sx={BigTextStyle}>SAY HI AT</Typography>
             <a
               href="mailto:hello@fannypokrandt.com"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-            <Typography sx={BigTextStyle}>HELLO@FANNY</Typography>
-            <Typography sx={BigTextStyle}>POKRANDT.COM</Typography>          
+              <Typography sx={BigTextStyle}>HELLO@FANNY</Typography>
+              <Typography sx={BigTextStyle}>POKRANDT.COM</Typography>
             </a>
           </Box>
 
           <Box>
-         
             <Typography sx={BigBoldTextStyle}>UNDER THE </Typography>
-            <Typography sx={BigBoldTextStyle}paddingBottom="2%" >
+            <Typography sx={BigBoldTextStyle} paddingBottom="2%">
               SAME SKY
             </Typography>
 
-       
             <Typography sx={BigTextStyle}>Video and Sound</Typography>
             <Typography paddingBottom="2%" sx={BigTextStyle}>
               Installation
             </Typography>
             <Typography sx={smallText} width="80%%">
-              Shown at <br></br> 06.07.2023 at Kampnagel Hamburg <br></br> 21.09.2023 -
-              21.11.2023 at "The Cup Flows Over: Art from the Soul of Iran" at
-              Gallery Bergen, New Jersey
+              Shown at <br></br> 06.07.2023 at Kampnagel Hamburg <br></br>{" "}
+              21.09.2023 - 21.11.2023 at "The Cup Flows Over: Art from the Soul
+              of Iran" at Gallery Bergen, New Jersey
             </Typography>
           </Box>
         </Grid>

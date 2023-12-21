@@ -40,17 +40,17 @@
   padding-bottom: 0;
 } */
 
-/* @font-face {
+@font-face {
   font-family: "Arial Black";
   src: local("Arial Black"), url("../../font/Arial\ Black.ttf") format("woff2"),
   url("../../font/Arial\ Black.ttf") format("woff"),
   url("../../font/Arial\ Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
-} */
-/* .bigTextStyle {
+}
+.bigTextStyle {
   color: red;
   font-size: 32px;
   line-height:35p;
   font-family: 'Arial ',
-} */
+}

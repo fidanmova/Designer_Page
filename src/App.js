@@ -1,26 +1,26 @@
-import React from "react";
+import React, { useEffect} from "react";
 import HomeDesktop from './page/Home/HomeDesktop';
 import HomeMobile from './page/Home/HomeMobile'
 import ProjectMobile from './page/Project/ProjectMobile'
-import { createTheme, ThemeProvider} from '@mui/material/styles';
+import { createTheme, ThemeProvider, responsiveFontSizes } from '@mui/material/styles';
 import './index.css'
+import WebFont from 'webfontloader';
 
 
-
-const theme = createTheme({
-  typography: {
-    fontFamily: 'Arial Black, Arial, sans-serif',
-  },
-});
+// const theme = createTheme({
+//   typography: {
+//     fontFamily: 'Arial Black',
+//   },
+// });
 
 // let theme= createTheme()
 // theme= responsiveFontSizes(theme)
 
-// const theme = createTheme( {
-//   typography: {
-//     fontFamily : 'Arial Black, Arial, sans-serif'
-//   }
-// })
+const theme = createTheme( {
+  typography: {
+    fontFamily : 'Arial Black, Arial, sans-serif'
+  }
+})
 
 function App() {
 
@@ -37,7 +37,6 @@ function App() {
     <ThemeProvider theme={theme}>
     <div className="App">
       <HomeDesktop/>
-
     </div>
   </ThemeProvider>
   );
