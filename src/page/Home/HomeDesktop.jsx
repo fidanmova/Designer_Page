@@ -77,7 +77,7 @@ export default function HomeDesktop() {
   };
 
   return (
-    <div>
+    <>
       {isMobile ? (
         <HomeMobile />
       ) : 
@@ -163,6 +163,6 @@ export default function HomeDesktop() {
         </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
